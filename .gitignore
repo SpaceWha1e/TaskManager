@@ -14,3 +14,45 @@ logs/
 dist/
 build/
 *.egg-info/
+
+
+# Виртуальное окружение Python
+venv/
+env/
+.venv/
+
+# Файлы Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+
+# Базы данных (кроме requirements.txt!)
+*.db
+*.sqlite3
+
+# Файлы настроек (с паролями)
+.env
+.venv
+.env.local
+.env.prod
+
+# Файлы операционной системы
+.DS_Store
+Thumbs.db
+
+# Файлы редактора
+.vscode/
+.idea/
+*.swp
+*.swo
+
+
+# Docker
+docker-compose.override.yml
